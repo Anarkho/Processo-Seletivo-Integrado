@@ -1,0 +1,33 @@
+{
+  "name": "Processo-Seletivo-Integrado",
+  "version": "1.0.0",
+  "description": "Projeto Back-end em Node.js e MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "dev": "lite-server",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anarkho/Processo-Seletivo-Integrado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anarkho/Processo-Seletivo-Integrado/issues"
+  },
+  "homepage": "https://github.com/Anarkho/Processo-Seletivo-Integrado#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "~4.15.4",
+    "mongoose": "~4.11.12",
+    "request": "~2.82.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "nodemon": "^1.12.1"
+  }
+}
