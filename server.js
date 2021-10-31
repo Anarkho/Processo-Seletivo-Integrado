@@ -112,7 +112,7 @@ router
       page = Math.max(0, req.param("page"));
     University.find(
       {},
-      { alpha_two_code: 0, domains: 0 },
+      { alpha_two_code: 0, domains: 0, web_pages: 0  },
       function (error, universities) {
         if (error) {
           res.send("Error ao tentar carregar lista de Universidades: " + error);
