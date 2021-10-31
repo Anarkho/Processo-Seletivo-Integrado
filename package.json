@@ -23,8 +23,7 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "express": "~4.15.4",
-    "mongoose": "~4.11.12",
-    "request": "~2.82.0"
+    "mongoose": "~4.11.12"
   },
   "devDependencies": {
     "lite-server": "^2.6.1",
