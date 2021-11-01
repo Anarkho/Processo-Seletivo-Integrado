@@ -95,11 +95,11 @@ router
         if (error.code === 11000) {
           res.send("Ja existe essa universidade no banco!");
         } else {
-          res.send("Erro ao tentar salvar o Produto....: " + error);
+          res.send("Erro ao tentar salvar Universidade....: " + error);
         }
         return;
       }
-      res.json({ message: "Produto Cadastrado com Sucesso!" });
+      res.json({ message: "Universidade Cadastrada com Sucesso!" });
     });
 
     //
