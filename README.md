@@ -19,7 +19,7 @@ Projeto Back-end em Node.js e MongoDB
    #### /universities/id/:id
     - 'Get' retorna universidade especifica  do id correspondente
     ///////////////////////////////////////////////////////////////////////////////////////
-   #### /universities/:university_id
+   #### /universities/:id
     - 'Put' atualiza a propriedade web_pages do id correspondente
     - 'Delete' deleta a universidade com id correspondente
 

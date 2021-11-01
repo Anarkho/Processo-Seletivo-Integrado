@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const Schema = mongoose.Schema;
 
@@ -11,4 +11,6 @@ const universitiesSchema = new Schema({
   state_province: String,
 });
 
-module.exports = mongoose.model('todas', universitiesSchema);
+const University = mongoose.model('todas', universitiesSchema);
+
+export default University
